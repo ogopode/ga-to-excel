@@ -1,0 +1,28 @@
+{
+  "name": "ga-to-excel",
+  "version": "0.1.0",
+  "description": "Parsing tsv from Google Analytics Query Explorer and writing Excel compatible for German settings.",
+  "main": "ga-to-excel.js",
+  "dependencies": {
+    "csv-export": "^1.0.1",
+    "csv-parse": "^1.2.0",
+    "csv-stringify": "^1.0.4",
+    "iplocation": "^2.0.1",
+    "mocha": "^3.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ga-to-excel.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogopode/ga-to-excel.git"
+  },
+  "author": "jan.schnitzler@gfiu.de",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ogopode/ga-to-excel/issues"
+  },
+  "homepage": "https://github.com/ogopode/ga-to-excel#readme"
+}
